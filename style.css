@@ -7,6 +7,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 p {
   color: aqua;
   display: flex;
@@ -16,7 +17,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 3px solid red;
+  border: 3px solid transparent;
 }
 .username {
   display: flex;
@@ -26,5 +27,13 @@ p {
 .password {
   display: flex;
   justify-content: center;
-  position: relative;
+}
+
+.submit__btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
