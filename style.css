@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+h1 {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+}
+p {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid red;
+}
+.username {
+  display: flex;
+  justify-content: center;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
